@@ -1,0 +1,68 @@
+/* Base */
+
+/* Centered Fixed Width Content */
+html {
+  background: url("img/tech-background.webp") no-repeat center fixed;
+  background-size: cover;
+}
+
+/* (width 600px, | top-margin: 25px, | padding: 25px (top) 150px (left&right) 50px (bottom)) */
+/* Base Font: Verdana */
+body {
+  background: rgba(225, 225, 225, 0.9);
+  width: 600px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 25px auto;
+  padding: 25px 150px 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Text */
+
+/* h1 & h2: Gill Sans font, letter spacing 25px */
+h1,
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* h2: top margin 50px */
+h2 {
+  margin-top: 50px;
+}
+
+/*  blue color: #1774bb
+    orange color: #f15c2a
+    yellow color: #fcb041
+    */
+
+#htmlorange {
+  color: #f15c2a;
+}
+
+#cssblue {
+  color: #1774bb;
+}
+
+#jsyellow {
+  color: #fcb041;
+}
+
+/* hyperlink: navy color, | make bold on hover */
+a {
+  color: navy;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+/* bottom image */
+.imgcenter {
+  text-align: center;
+}
